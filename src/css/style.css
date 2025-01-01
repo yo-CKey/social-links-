@@ -1,0 +1,91 @@
+html {
+    font-family: "M PLUS Rounded 1c", serif;
+}
+
+.container {
+    background-color: #100f0f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container .card {
+    background-color:  #23232387;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 450px;
+    border-radius: 10px;
+}
+
+.container .card .sobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+
+}
+
+.container .card .sobre img {
+    max-width: 55px;
+    border-radius: 100px;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+
+.container .card .sobre .nome {
+    font-size: 18px;
+    margin-bottom: 3px;
+    color: #ffffffff;
+    margin-top: 10px;
+}
+
+
+.container .card .sobre .from {
+    font-size: 10px;
+    font-weight: 600;
+    margin-top: 5px;
+    color: #b9e838b1;
+}
+
+.container .card .sobre .info {
+    font-size: 10px;
+    margin-top: 20px;
+    color: #b9b9aa;
+}
+
+.redes-sociais {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+     margin-bottom: 50px;
+}
+
+.redes-sociais li {
+    background-color: #232323;
+    width: 240px;
+    height: 40px;
+    border-radius: 8px;
+    margin: 6px;
+    transition: all .3s ease-in;
+}
+
+    .redes-sociais a {
+        color: #ffffffff;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .redes-sociais li:hover {
+        background-color: #b9e838b1;
+        
+    }
+
+    .redes-sociais a:hover {
+        color: #232323;
+    }
